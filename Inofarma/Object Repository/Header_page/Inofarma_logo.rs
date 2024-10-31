@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Inofarma_logo</name>
+   <tag></tag>
+   <elementGuidId>31276268-3387-4226-af34-3d5ecdf15326</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>2b51e91f-c636-4f20-b671-88631ff7508f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>	https://pondokungupermai.develop.apotekinofarma.ga…h.dev/assets/images/logo/apotek-inofarma-logo.png</value>
+      <webElementGuid>c5783d82-0c05-431c-a92d-b21bdf0f4043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-dash</value>
+      <webElementGuid>2df541f6-0b70-4e54-a351-fe25f1c08456</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;px-navbar-fixed  pace-done&quot;]/nav[@class=&quot;navbar navbar-default&quot;]/div[@class=&quot;navbar-header&quot;]/a[@class=&quot;navbar-brand px-demo-brand&quot;]/span[1]/img[@class=&quot;icon-dash&quot;]</value>
+      <webElementGuid>8fddec4a-0442-4848-a5a0-5579f455b1c0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

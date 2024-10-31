@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "df057feb-eb60-46e8-bcf8-b233d8a1bb9c",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25519578"
+	},
+	"item": [
+		{
+			"name": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-sku/delete-pharmacy-sync",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "12345",
+						"type": "text"
+					},
+					{
+						"key": "x-swiperx-pt-pharmacy-id",
+						"value": "504",
+						"type": "text"
+					},
+					{
+						"key": "cookie",
+						"value": "PHPSESSID=2f04fc55fae15ebc25d357c81eb7f640",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-sku/delete-pharmacy-sync",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"laravel-pos-api",
+						"garuda",
+						"mcltech",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v4",
+						"core",
+						"master-sku",
+						"delete-pharmacy-sync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-sku/pharmacy-sync",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "12345"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "PHPSESSID=2f04fc55fae15ebc25d357c81eb7f640"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pharmacy_name\": \"apotekinofarma\",\r\n    \"subdomain\": \"testapotek85\"\r\n}"
+				},
+				"url": {
+					"raw": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-sku/pharmacy-sync",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"laravel-pos-api",
+						"garuda",
+						"mcltech",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v4",
+						"core",
+						"master-sku",
+						"pharmacy-sync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-sku/bulk-upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-swiperx-pt-pharmacy-id",
+						"value": "504"
+					},
+					{
+						"key": "x-api-key",
+						"value": "12345"
+					},
+					{
+						"key": "Cookie",
+						"value": "PHPSESSID=2f04fc55fae15ebc25d357c81eb7f640"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "your_file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-sku/bulk-upload",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"laravel-pos-api",
+						"garuda",
+						"mcltech",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v4",
+						"core",
+						"master-sku",
+						"bulk-upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-supplier/pharmacy-sync",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-swiperx-pt-pharmacy-id",
+						"value": "504"
+					},
+					{
+						"key": "x-api-key",
+						"value": "12345"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "PHPSESSID=97a4dc165b0e1c899e99aba5ee427294"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pharmacy_name\": \"apotekinofarma\",\n    \"subdomain\": \"testapotek80\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/master-supplier/pharmacy-sync",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"laravel-pos-api",
+						"garuda",
+						"mcltech",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v4",
+						"core",
+						"master-supplier",
+						"pharmacy-sync"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/pharmacy/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-swiperx-pt-pharmacy-id",
+						"value": "504"
+					},
+					{
+						"key": "x-api-key",
+						"value": "12345"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Cookie",
+						"value": "PHPSESSID=ec4058f20298dc14564e8ece51dbee0d"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pharmacy_name\": \"apotekinofarma\",\r\n    \"subdomain\": \"testapotek83\"\r\n}"
+				},
+				"url": {
+					"raw": "https://develop.laravel-pos-api.garuda.mcltech.dev/api/v4/core/pharmacy/register",
+					"protocol": "https",
+					"host": [
+						"develop",
+						"laravel-pos-api",
+						"garuda",
+						"mcltech",
+						"dev"
+					],
+					"path": [
+						"api",
+						"v4",
+						"core",
+						"pharmacy",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

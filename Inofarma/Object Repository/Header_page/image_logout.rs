@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_logout</name>
+   <tag></tag>
+   <elementGuidId>7147f8ae-f914-4b92-aafb-def9449c3314</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.dropdown-icon.fa.fa-power-off</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;logout&quot;)/i[@class=&quot;dropdown-icon fa fa-power-off&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='logout']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Keluar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0a046983-c5ab-4545-8e0a-9ad19701d9df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-icon fa fa-power-off</value>
+      <webElementGuid>781c3209-be76-4c6c-a937-22c8ec1c340a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;logout&quot;)/i[@class=&quot;dropdown-icon fa fa-power-off&quot;]</value>
+      <webElementGuid>87dab705-0dea-4083-a15f-d4610ff0adcc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='logout']/i</value>
+      <webElementGuid>5df215d0-515c-4670-8ccf-7c142f53849c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li[3]/a/i</value>
+      <webElementGuid>28c598e8-35b6-4459-b714-8f10654f0461</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

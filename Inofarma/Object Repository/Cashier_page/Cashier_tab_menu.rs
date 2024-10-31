@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Cashier_tab_menu</name>
+   <tag></tag>
+   <elementGuidId>369a6ea8-075e-44dc-bb80-25759eacedb6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Kasir' or . = 'Kasir')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>36b38fc8-783c-4ce9-91ca-7ddc9c48af30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>&quot;https://pondokungupermai.develop.apotekinofarma.garuda.mcltech.dev/admin/trx_pos/v3/index&quot;</value>
+      <webElementGuid>b23c026b-108b-4af9-b58f-23c824834419</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kasir</value>
+      <webElementGuid>c56e9e7b-e7a1-40ae-9609-704d7f371dce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;px-navbar-fixed  pace-done&quot;]/nav[@class=&quot;px-nav px-nav-left px-nav-animate px-nav-fixed&quot;]/div[@class=&quot;px-nav-scrollable-area&quot;]/ul[@class=&quot;px-nav-content ps-container ps-theme-default ps-active-y&quot;]/li[@class=&quot;px-nav-item&quot;]/a[1]</value>
+      <webElementGuid>54aff66e-cea4-4da7-8ba9-d5079ef2ce0d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
